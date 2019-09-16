@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Display Touch Check"; ObjectID = "J7X-dc-5g9"; */
+"J7X-dc-5g9.text" = "ディスプレイチェック";
+
+/* Class = "UILabel"; text = "Check if touch responds\n \n"; ObjectID = "a2I-qT-TKv"; */
+"a2I-qT-TKv.text" = "タッチが反応するかどうか確認する";

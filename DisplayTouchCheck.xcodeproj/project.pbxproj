@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA4D642232FB5FA00F58858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D641232FB5FA00F58858 /* AppDelegate.swift */; };
+		DDA4D644232FB5FA00F58858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D643232FB5FA00F58858 /* ViewController.swift */; };
+		DDA4D647232FB5FA00F58858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA4D645232FB5FA00F58858 /* Main.storyboard */; };
+		DDA4D649232FB5FC00F58858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA4D648232FB5FC00F58858 /* Assets.xcassets */; };
+		DDA4D64C232FB5FC00F58858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA4D64A232FB5FC00F58858 /* LaunchScreen.storyboard */; };
+		DDA4D657232FB5FC00F58858 /* DisplayTouchCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D656232FB5FC00F58858 /* DisplayTouchCheckTests.swift */; };
+		DDA4D662232FB5FC00F58858 /* DisplayTouchCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D661232FB5FC00F58858 /* DisplayTouchCheckUITests.swift */; };
+		DDA4D670232FBC0600F58858 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D66F232FBC0600F58858 /* DrawViewController.swift */; };
+		DDA4D672232FBC6200F58858 /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D671232FBC6200F58858 /* Pen.swift */; };
+		DDA4D67A232FD26300F58858 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D679232FD26300F58858 /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA4D653232FB5FC00F58858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA4D636232FB5FA00F58858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA4D63D232FB5FA00F58858;
+			remoteInfo = DisplayTouchCheck;
+		};
+		DDA4D65E232FB5FC00F58858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA4D636232FB5FA00F58858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA4D63D232FB5FA00F58858;
+			remoteInfo = DisplayTouchCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDA4D63E232FB5FA00F58858 /* DisplayTouchCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayTouchCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA4D641232FB5FA00F58858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDA4D643232FB5FA00F58858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDA4D646232FB5FA00F58858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDA4D648232FB5FC00F58858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA4D64B232FB5FC00F58858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDA4D64D232FB5FC00F58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA4D652232FB5FC00F58858 /* DisplayTouchCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayTouchCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA4D656232FB5FC00F58858 /* DisplayTouchCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTouchCheckTests.swift; sourceTree = "<group>"; };
+		DDA4D658232FB5FC00F58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA4D65D232FB5FC00F58858 /* DisplayTouchCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayTouchCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA4D661232FB5FC00F58858 /* DisplayTouchCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTouchCheckUITests.swift; sourceTree = "<group>"; };
+		DDA4D663232FB5FC00F58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA4D66F232FBC0600F58858 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		DDA4D671232FBC6200F58858 /* Pen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
+		DDA4D679232FD26300F58858 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DDA4D67B232FD28D00F58858 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		DDA4D67C232FD28D00F58858 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA4D63B232FB5FA00F58858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4D64F232FB5FC00F58858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4D65A232FB5FC00F58858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA4D635232FB5FA00F58858 = {
+			isa = PBXGroup;
+			children = (
+				DDA4D640232FB5FA00F58858 /* DisplayTouchCheck */,
+				DDA4D655232FB5FC00F58858 /* DisplayTouchCheckTests */,
+				DDA4D660232FB5FC00F58858 /* DisplayTouchCheckUITests */,
+				DDA4D63F232FB5FA00F58858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA4D63F232FB5FA00F58858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4D63E232FB5FA00F58858 /* DisplayTouchCheck.app */,
+				DDA4D652232FB5FC00F58858 /* DisplayTouchCheckTests.xctest */,
+				DDA4D65D232FB5FC00F58858 /* DisplayTouchCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA4D640232FB5FA00F58858 /* DisplayTouchCheck */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4D674232FBC7900F58858 /* Model */,
+				DDA4D673232FBC6700F58858 /* View Controller */,
+				DDA4D641232FB5FA00F58858 /* AppDelegate.swift */,
+				DDA4D645232FB5FA00F58858 /* Main.storyboard */,
+				DDA4D648232FB5FC00F58858 /* Assets.xcassets */,
+				DDA4D64A232FB5FC00F58858 /* LaunchScreen.storyboard */,
+				DDA4D64D232FB5FC00F58858 /* Info.plist */,
+			);
+			path = DisplayTouchCheck;
+			sourceTree = "<group>";
+		};
+		DDA4D655232FB5FC00F58858 /* DisplayTouchCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4D656232FB5FC00F58858 /* DisplayTouchCheckTests.swift */,
+				DDA4D658232FB5FC00F58858 /* Info.plist */,
+			);
+			path = DisplayTouchCheckTests;
+			sourceTree = "<group>";
+		};
+		DDA4D660232FB5FC00F58858 /* DisplayTouchCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4D661232FB5FC00F58858 /* DisplayTouchCheckUITests.swift */,
+				DDA4D663232FB5FC00F58858 /* Info.plist */,
+			);
+			path = DisplayTouchCheckUITests;
+			sourceTree = "<group>";
+		};
+		DDA4D673232FBC6700F58858 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4D679232FD26300F58858 /* AboutViewController.swift */,
+				DDA4D66F232FBC0600F58858 /* DrawViewController.swift */,
+				DDA4D643232FB5FA00F58858 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		DDA4D674232FBC7900F58858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4D671232FBC6200F58858 /* Pen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA4D63D232FB5FA00F58858 /* DisplayTouchCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA4D666232FB5FC00F58858 /* Build configuration list for PBXNativeTarget "DisplayTouchCheck" */;
+			buildPhases = (
+				DDA4D63A232FB5FA00F58858 /* Sources */,
+				DDA4D63B232FB5FA00F58858 /* Frameworks */,
+				DDA4D63C232FB5FA00F58858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisplayTouchCheck;
+			productName = DisplayTouchCheck;
+			productReference = DDA4D63E232FB5FA00F58858 /* DisplayTouchCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA4D651232FB5FC00F58858 /* DisplayTouchCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA4D669232FB5FC00F58858 /* Build configuration list for PBXNativeTarget "DisplayTouchCheckTests" */;
+			buildPhases = (
+				DDA4D64E232FB5FC00F58858 /* Sources */,
+				DDA4D64F232FB5FC00F58858 /* Frameworks */,
+				DDA4D650232FB5FC00F58858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA4D654232FB5FC00F58858 /* PBXTargetDependency */,
+			);
+			name = DisplayTouchCheckTests;
+			productName = DisplayTouchCheckTests;
+			productReference = DDA4D652232FB5FC00F58858 /* DisplayTouchCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDA4D65C232FB5FC00F58858 /* DisplayTouchCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA4D66C232FB5FC00F58858 /* Build configuration list for PBXNativeTarget "DisplayTouchCheckUITests" */;
+			buildPhases = (
+				DDA4D659232FB5FC00F58858 /* Sources */,
+				DDA4D65A232FB5FC00F58858 /* Frameworks */,
+				DDA4D65B232FB5FC00F58858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA4D65F232FB5FC00F58858 /* PBXTargetDependency */,
+			);
+			name = DisplayTouchCheckUITests;
+			productName = DisplayTouchCheckUITests;
+			productReference = DDA4D65D232FB5FC00F58858 /* DisplayTouchCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA4D636232FB5FA00F58858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = tanjoin;
+				TargetAttributes = {
+					DDA4D63D232FB5FA00F58858 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DDA4D651232FB5FC00F58858 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DDA4D63D232FB5FA00F58858;
+					};
+					DDA4D65C232FB5FC00F58858 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DDA4D63D232FB5FA00F58858;
+					};
+				};
+			};
+			buildConfigurationList = DDA4D639232FB5FA00F58858 /* Build configuration list for PBXProject "DisplayTouchCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = DDA4D635232FB5FA00F58858;
+			productRefGroup = DDA4D63F232FB5FA00F58858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA4D63D232FB5FA00F58858 /* DisplayTouchCheck */,
+				DDA4D651232FB5FC00F58858 /* DisplayTouchCheckTests */,
+				DDA4D65C232FB5FC00F58858 /* DisplayTouchCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA4D63C232FB5FA00F58858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA4D64C232FB5FC00F58858 /* LaunchScreen.storyboard in Resources */,
+				DDA4D649232FB5FC00F58858 /* Assets.xcassets in Resources */,
+				DDA4D647232FB5FA00F58858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4D650232FB5FC00F58858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4D65B232FB5FC00F58858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA4D63A232FB5FA00F58858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA4D670232FBC0600F58858 /* DrawViewController.swift in Sources */,
+				DDA4D644232FB5FA00F58858 /* ViewController.swift in Sources */,
+				DDA4D642232FB5FA00F58858 /* AppDelegate.swift in Sources */,
+				DDA4D67A232FD26300F58858 /* AboutViewController.swift in Sources */,
+				DDA4D672232FBC6200F58858 /* Pen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4D64E232FB5FC00F58858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA4D657232FB5FC00F58858 /* DisplayTouchCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4D659232FB5FC00F58858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA4D662232FB5FC00F58858 /* DisplayTouchCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA4D654232FB5FC00F58858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA4D63D232FB5FA00F58858 /* DisplayTouchCheck */;
+			targetProxy = DDA4D653232FB5FC00F58858 /* PBXContainerItemProxy */;
+		};
+		DDA4D65F232FB5FC00F58858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA4D63D232FB5FA00F58858 /* DisplayTouchCheck */;
+			targetProxy = DDA4D65E232FB5FC00F58858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDA4D645232FB5FA00F58858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA4D646232FB5FA00F58858 /* Base */,
+				DDA4D67B232FD28D00F58858 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDA4D64A232FB5FC00F58858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA4D64B232FB5FC00F58858 /* Base */,
+				DDA4D67C232FD28D00F58858 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA4D664232FB5FC00F58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA4D665232FB5FC00F58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA4D667232FB5FC00F58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DisplayTouchCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.tanjo.display.touch.check;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA4D668232FB5FC00F58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DisplayTouchCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.tanjo.display.touch.check;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDA4D66A232FB5FC00F58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DisplayTouchCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.tanjo.display.touch.check.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisplayTouchCheck.app/DisplayTouchCheck";
+			};
+			name = Debug;
+		};
+		DDA4D66B232FB5FC00F58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DisplayTouchCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.tanjo.display.touch.check.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisplayTouchCheck.app/DisplayTouchCheck";
+			};
+			name = Release;
+		};
+		DDA4D66D232FB5FC00F58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DisplayTouchCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.tanjo.display.touch.check.ui.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisplayTouchCheck;
+			};
+			name = Debug;
+		};
+		DDA4D66E232FB5FC00F58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DisplayTouchCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.tanjo.display.touch.check.ui.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisplayTouchCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA4D639232FB5FA00F58858 /* Build configuration list for PBXProject "DisplayTouchCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA4D664232FB5FC00F58858 /* Debug */,
+				DDA4D665232FB5FC00F58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA4D666232FB5FC00F58858 /* Build configuration list for PBXNativeTarget "DisplayTouchCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA4D667232FB5FC00F58858 /* Debug */,
+				DDA4D668232FB5FC00F58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA4D669232FB5FC00F58858 /* Build configuration list for PBXNativeTarget "DisplayTouchCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA4D66A232FB5FC00F58858 /* Debug */,
+				DDA4D66B232FB5FC00F58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA4D66C232FB5FC00F58858 /* Build configuration list for PBXNativeTarget "DisplayTouchCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA4D66D232FB5FC00F58858 /* Debug */,
+				DDA4D66E232FB5FC00F58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA4D636232FB5FA00F58858 /* Project object */;
+}

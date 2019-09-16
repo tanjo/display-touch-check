@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Check if touch responds\n \n"; ObjectID = "Ffr-1v-MZz"; */
+"Ffr-1v-MZz.text" = "タッチが反応するかどうか確認する";
+
+/* Class = "UILabel"; text = "Check if touch responds\n \n"; ObjectID = "It9-bg-igh"; */
+"It9-bg-igh.text" = "タッチが反応するかどうか確認する";
+
+/* Class = "UILabel"; text = "Display Touch Check"; ObjectID = "Nvg-D4-raT"; */
+"Nvg-D4-raT.text" = "ディスプレイチェック";
+
+/* Class = "UILabel"; text = "Version 1.0.0"; ObjectID = "NxM-fP-XHj"; */
+"NxM-fP-XHj.text" = "バージョン 1.0.0";
+
+/* Class = "UIButton"; normalTitle = "About"; ObjectID = "ZMU-Uh-UKu"; */
+"ZMU-Uh-UKu.normalTitle" = "アプリについて";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "dgh-Y6-RSp"; */
+"dgh-Y6-RSp.normalTitle" = "閉じる";
+
+/* Class = "UILabel"; text = "Display Touch Check"; ObjectID = "heL-O8-aDn"; */
+"heL-O8-aDn.text" = "ディスプレイチェック";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "jyH-K5-xgP"; */
+"jyH-K5-xgP.normalTitle" = "スタート";
