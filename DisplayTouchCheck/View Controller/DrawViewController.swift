@@ -39,7 +39,7 @@ class DrawViewController: UIViewController {
 
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
-            clearLines()
+            showActionSheet()
         }
     }
     
@@ -55,14 +55,7 @@ class DrawViewController: UIViewController {
         if !pen.swipe {
             pen.draw(view: view, imageView: subImageView)
         }
-        
-        UIGraphicsBeginImageContext(view.frame.size)
-        mainImageView.image?.draw(in: view.bounds, blendMode: .normal, alpha: 1.0)
-        subImageView.image?.draw(in: view.bounds, blendMode: .normal, alpha: pen.opacity)
-        mainImageView.image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        
-        subImageView.image = nil
+        pen.render(view: view, renderImageView: mainImageView, originalImageView: subImageView)
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -73,20 +66,28 @@ class DrawViewController: UIViewController {
         let end =  touch.location(in: view)
         pen.end = end
         pen.draw(view: view, imageView: subImageView)
-
         pen.start = end
     }
     
     // MARK:
     
-    func clearLines() {
-        let alert = UIAlertController(title: "確認", message: "画面をクリアしますか？", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "はい", style: .default) { (action) in
-            self.mainImageView.image = nil
+    func share() {
+        guard let image = mainImageView.image else {
+            return
         }
-        alert.addAction(okAction)
-        let cancelAction = UIAlertAction(title: "いいえ", style: .cancel)
-        alert.addAction(cancelAction)
+        let activity = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        self.present(activity, animated: true, completion: nil)
+    }
+    
+    func showActionSheet() {
+        let alert = UIAlertController(title: "アクション", message: "選べ", preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "画面をクリア", style: .default) { (action) in
+            self.mainImageView.image = nil
+        })
+        alert.addAction(UIAlertAction(title: "共有", style: .default) { (action) in
+            self.share()
+        })
+        alert.addAction(UIAlertAction(title: "キャンセル", style: .cancel))
         self.present(alert, animated: true, completion: nil)
     }
 }

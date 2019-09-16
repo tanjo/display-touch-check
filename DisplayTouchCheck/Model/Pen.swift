@@ -33,4 +33,14 @@ class Pen {
         imageView.alpha = opacity
         UIGraphicsEndImageContext()
     }
+    
+    func render(view: UIView, renderImageView: UIImageView, originalImageView: UIImageView) {
+        UIGraphicsBeginImageContext(view.frame.size)
+        renderImageView.image?.draw(in: view.bounds, blendMode: .normal, alpha: 1.0)
+        originalImageView.image?.draw(in: view.bounds, blendMode: .normal, alpha: opacity)
+        renderImageView.image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        originalImageView.image = nil
+    }
 }
