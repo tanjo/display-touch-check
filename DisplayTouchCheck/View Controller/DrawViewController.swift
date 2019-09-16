@@ -31,6 +31,10 @@ class DrawViewController: UIViewController {
         self.becomeFirstResponder()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        pen.updateStatus()
+    }
+    
     // MARK: UIResponder
     
     override var canBecomeFirstResponder: Bool {
@@ -87,6 +91,13 @@ class DrawViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "共有", style: .default) { (action) in
             self.share()
         })
+        alert.addAction(UIAlertAction(title: "設定", style: .default, handler: { (action) in
+            guard let storyboard = self.storyboard else {
+                return
+            }
+            let viewController = storyboard.instantiateViewController(withIdentifier: "ConfigViewController")
+            self.present(viewController, animated: true, completion: nil)
+        }))
         alert.addAction(UIAlertAction(title: "キャンセル", style: .cancel))
         self.present(alert, animated: true, completion: nil)
     }

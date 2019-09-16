@@ -17,6 +17,8 @@
 		DDA4D670232FBC0600F58858 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D66F232FBC0600F58858 /* DrawViewController.swift */; };
 		DDA4D672232FBC6200F58858 /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D671232FBC6200F58858 /* Pen.swift */; };
 		DDA4D67A232FD26300F58858 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D679232FD26300F58858 /* AboutViewController.swift */; };
+		DDA4D67E232FD88C00F58858 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D67D232FD88C00F58858 /* ConfigViewController.swift */; };
+		DDA4D680232FD8E000F58858 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D67F232FD8E000F58858 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		DDA4D679232FD26300F58858 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		DDA4D67B232FD28D00F58858 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		DDA4D67C232FD28D00F58858 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DDA4D67D232FD88C00F58858 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		DDA4D67F232FD8E000F58858 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				DDA4D679232FD26300F58858 /* AboutViewController.swift */,
+				DDA4D67D232FD88C00F58858 /* ConfigViewController.swift */,
 				DDA4D66F232FBC0600F58858 /* DrawViewController.swift */,
 				DDA4D643232FB5FA00F58858 /* ViewController.swift */,
 			);
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				DDA4D671232FBC6200F58858 /* Pen.swift */,
+				DDA4D67F232FD8E000F58858 /* Config.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 			files = (
 				DDA4D670232FBC0600F58858 /* DrawViewController.swift in Sources */,
 				DDA4D644232FB5FA00F58858 /* ViewController.swift in Sources */,
+				DDA4D67E232FD88C00F58858 /* ConfigViewController.swift in Sources */,
+				DDA4D680232FD8E000F58858 /* Config.swift in Sources */,
 				DDA4D642232FB5FA00F58858 /* AppDelegate.swift in Sources */,
 				DDA4D67A232FD26300F58858 /* AboutViewController.swift in Sources */,
 				DDA4D672232FBC6200F58858 /* Pen.swift in Sources */,

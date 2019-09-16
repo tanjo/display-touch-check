@@ -13,6 +13,11 @@ class Pen {
     var start = CGPoint.zero
     var swipe = false
     
+    func updateStatus() {
+        color = Config.standard.color
+        width = Config.standard.size
+    }
+    
     func draw(view: UIView, imageView: UIImageView) {
         UIGraphicsBeginImageContext(view.frame.size)
         guard let context = UIGraphicsGetCurrentContext() else {
